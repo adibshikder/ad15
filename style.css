@@ -1,0 +1,364 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	background-color:#ADD8E6;
+}
+.wrapper{
+	max-width:1000px;
+	height:auto;
+	margin:0 auto;
+}
+.header{
+	width:100%;
+	height:90px;
+	background-color:#E4CB95;
+}
+.headerLogo{
+	width:35%;
+	height:100%;
+	float:left;
+}
+.title{
+	width:65%;
+	min-width:150px;
+	height:100%;
+	float:left;
+	background-color:#E4CB95;
+}
+.title h2{
+	text-align:center;
+	padding-top:30px;
+	color:white;
+}
+.marquee{
+	width:100%;
+	height:30px;
+	padding-top:6px;
+	background-color:#9109BA;
+	color:white;
+}
+.menu{
+	width:100%;
+	min-width:70px;
+	height:60px;
+	background-color:#00984A;
+	
+}
+.menu li{
+	list-style-type:none;
+	float:left;
+	border-right:2px solid white;
+	background-color:#00984A;
+}
+.menu li:last-child{
+	border-right:none;
+}
+.menu li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	padding:21px 20px;
+}
+.menu li a:hover{
+	background-color:pink;
+}
+.menu ul li{
+	position:relative;
+	
+}
+.menu ul li ul{
+	position:absolute;
+	left:-909990px;
+}
+.menu ul li ul li{
+	width:200px;
+	float:none;	
+	border-right:none;
+	border-top:1px solid white;
+	
+}
+.menu ul li:hover ul{
+	left:0;
+}
+.content{
+	width:100%;
+	height:auto;
+}
+.section{
+	width:100%;
+	height:auto;	
+}
+.imgage{
+	width:100%;
+	height:350px;
+	float:left;
+}
+.gallery{
+	width:100%;
+	height:350px;
+	float:left;
+}
+.aboutUs{
+	width:100%;
+	min-width:250px;
+	height:auto;
+	float:left;
+}
+.aboutUs h1{
+	background-color:#B4A5D7;
+	color:blue;
+	text-align:center;
+	padding:20px;
+}
+.aboutUs p{
+	width:100%;
+	height:auto;
+	background-color:white;
+}
+.article{
+	width:100%;
+	height:auto;
+}
+.event{
+	width:70%;
+	height:auto;
+	float:left;
+	background-color:#87919D;
+}
+.eventPart{
+	width:46%;
+	min-width:125px;
+	height:42%;
+	margin:2%;
+	float:left;
+	background-color:#A799D1;
+}
+.eventPartImage{
+	width:100%;
+	height:175px;	
+}
+.eventPartDetails a{
+	text-align:center;
+	text-decoration:none;
+	color:white;
+}
+.eventPartDetails a:hover{
+	color:red;
+}
+.quickLinks{
+	width:29%;
+	min-width:100px;
+	height:494px;
+	float:left;
+	margin-left:1%;
+	color:white;
+	background-color:#840E6F;
+}
+.quickLinks h2{
+	text-align:center;
+	padding-top:13px;
+	background-color:#A799D1;
+}
+.quickLinks a{
+	text-decoration:none;
+	color:white;
+	float:none;
+}
+.quickLinks p{
+	color:blue;
+	padding:10px;
+	
+}
+.footer{
+	width:100%;
+	height:70px;
+	float:left;
+	background-color:#B1A3C2;
+}
+.footer h2{
+	text-align:center;
+	padding-top:25px;
+	color:#462C8E;
+}
+
+/*Message CSS*/
+
+.messageChairman{
+	width:100%;
+	height:auto;
+}
+
+.chairmanImg{
+	width:33%;
+	height:500px;
+	background-color:#DFDBE5;
+	margin-right:2%;
+	float:left;
+}
+.chairmanImg h2,h4{
+	text-align:center;
+	padding-top:10px;
+	color:blue;
+}
+.message{
+	width:65%;
+	min-width:120px;
+	height:500px;
+	float:left;
+	overflow:scroll;
+	background-color:#DFDBE5;
+}
+.messageHeader{
+	width:100%;
+	height:60px;
+	text-align:center;
+	padding-top:13px;
+	background-color:#A799D1;
+}
+.messageHeader p{
+	margin:20px;
+	font-size:20px;
+	text-align: justify;
+}
+ /*Goal And Ojectives*/
+ .maincontent{
+	 width:100%;
+	 height:auto;
+	 
+ }
+ .imgage{
+	width:100%;
+	height:350px;
+	float:left;
+}
+.whoWeAre{
+	width:100%;
+	height:auto;
+	float:left;
+	background-color:white;
+}
+.whoWeAre h1{
+	text-align:center;
+	color:white;
+	background-color:#9099A7;
+	
+}
+.whoWeAre p{
+	margin:20px;
+	font-size:20px;
+	text-align: justify;
+	
+}
+.Details{
+	width:100%;
+	min-width:100px;
+	float:left;
+	height:auto;
+	background-color:#34393E;
+}
+.goalObjectivesImg{
+	width:40%;
+	height:500px;
+	margin-right:1%;
+	float:left;
+	
+}
+.goalObjectives{
+	width:59%;
+	min-width:150px;
+	height:auto;
+	float:left;
+	background-color:#34393E;
+}
+.goalObjectives h1{
+	text-align:center;
+	color:white;
+	background-color:#9099A7;	
+}
+.goalObjectives ol{
+	padding-left:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	color:white;
+	
+}
+/* Contact*/
+.contact{
+	width:100%;
+	min-width:200px;
+	height:auto;
+	float:left;
+	background-color:#9099A7;
+}
+.contact p{
+	font-size:25px;
+	padding-top:10px;
+}
+/* Find Doctor*/
+.tableContent{
+	width:100%;
+	height:auto;
+	background-color:#9099A7;
+	float:left;
+}
+.table{
+	width:80%;
+	height:auto;
+	margin:0 auto;
+	background-color:white;
+	border:2px solid green;	
+}
+.table caption{
+	color:white;
+	font-size:30px;
+	padding-top:10px;
+}
+
+.table th, td{
+	border-collapse:collapse;
+	border:2px solid #6850A8;
+	text-align:center;   	
+}
+
+/*Appointment*/
+.appointment{
+	width:100%;
+	height:400px;	
+}
+
+/*Diagnoistic*/
+.diagnoistic{
+	width:100%;
+	height:auto;
+	float:left;
+	background-color:white;
+}
+.availableTest{
+	width:70%;
+	height:500px;
+    margin:0 auto;
+	border:2px solid red;
+}
+.availableTest h2{
+	height:15%;
+	text-align:center;
+	background:#9099A7;
+	color:white;
+	padding:10px;
+}
+.availableTest ol li{
+	list-style:none;
+	padding-top:15px;
+	margin-left:30px;
+}
+.availableTest ol li a{
+	text-decoration:none;
+	color:yello;
+	
+}
+.availableTest ol li a:hover{
+	color:red;
+}
